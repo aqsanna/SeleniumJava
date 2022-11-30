@@ -15,13 +15,9 @@ public class InecoBank {
         WebElement enLanguage = driver.findElement(By.cssSelector(".languageDropDownList.languageDropDownList--alignToRight.languageDropDownList"));
         WebElement textLanguage = driver.findElement(By.xpath("//*[text()='English']"));
         fidLink.click();
-        Thread.sleep(1000);
         languages.click();
-        Thread.sleep(1000);
         enLanguage.click();
-        Thread.sleep(1000);
         textLanguage.click();
-        Thread.sleep(1000);
         driver.quit();
 
     }

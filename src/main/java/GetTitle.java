@@ -18,7 +18,7 @@ public class GetTitle {
             System.out.println("We are go to forgot password page");
         }
         else{
-            System.out.println("We are go to wrong age");
+            System.out.println("We are go to wrong page");
         }
         driver.quit();
     }
